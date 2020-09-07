@@ -2,7 +2,7 @@
   display: none;
 }
 
-p {
+.clickable {
   cursor: pointer;
   color: #0088cc;
 }
