@@ -1,13 +1,14 @@
-const jquery351 = require("./jquery-3.5.1");
+$(document).ready(function() {
+  $("h1").click(function() {
+    alert("This is a header.");
+  });
 
-$("h1").click(function() {
-  alert("This is a header.");
-});
+  $("p").click(function() {
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
+  });
 
-$("p").click(function() {
-  alert("This is a paragraph.");
-});
-
-$("img").click(function() {
-  alert("This is a paragraph.");
+  $("img").click(function() {
+    alert("This is a paragraph.");
+  });
 });
