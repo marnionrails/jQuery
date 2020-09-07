@@ -1,4 +1,4 @@
-.walrus-showing {
+#walrus-showing {
   display: none;
 }
 
@@ -7,6 +7,6 @@
   color: #0088cc;
 }
 
-p:hover {
+.clickable:hover {
   text-decoration: underline;
 }
